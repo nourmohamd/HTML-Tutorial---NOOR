@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+    <title>Chapter 17</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <!-- Types Of Input -->
+    <input type="button" />
+    <input type="checkbox" />
+    <input type="color" />
+    <input type="date" />
+    <input type="datetime-local" />
+    <input type="email" />
+    <input type="file" />
+    <input type="hidden" />
+    <input type="image" />
+    <input type="month" />
+    <input type="number" />
+    <input type="password" />
+    <input type="radio" />
+    <input type="range" />
+    <input type="reset" />
+    <input type="search" />
+    <input type="submit" />
+    <input type="tel" />
+    <input type="text" />
+    <input type="time" />
+    <input type="url" />
+    <input type="week" />
+    <!-- 
+        Attributes Of Inputs : 
+        type, name, required disabled ==> for all Element,
+        autofocus,
+        placeholder, min, max, minlength, maxlength,
+        value, readonly, step
+    -->
+    <form action="index.html" method="GET">
+      <input
+        type="text"
+        minlength="3"
+        maxlength="6"
+        value="Nour"
+        name="username"
+        required
+        placeholder="Your Name"
+      />
+      <input type="checkbox" />
+      <input type="color" />
+      <input type="date" />
+      <input type="email" />
+      <input type="file" accept="image/*,audio/*,video/*,.doc,.pdf,.txt,.tex" />
+      <input type="hidden" />
+      <input type="month" />
+      <input type="number" placeholder="number" value="123123" readonly />
+      <input type="password" />
+      <input type="radio" />
+      <input type="range" step="20" max="200" />
+      <input type="search" />
+      <input type="tel" />
+      <input type="time" />
+      <input type="url" />
+      <input type="week" />
+      <input type="reset" autofocus />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
